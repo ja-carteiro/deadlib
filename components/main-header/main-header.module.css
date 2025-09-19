@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    margin: 26px auto;
+    padding: 10px 20px;
+    background-color: #05173d;
+    border: 5px solid white;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav li {
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.nav p {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    transform: translate(-10px, 10px);
+}
